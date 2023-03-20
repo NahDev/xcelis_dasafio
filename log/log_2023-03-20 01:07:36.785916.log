@@ -1,0 +1,49 @@
+2023-03-20 01:07:36,786 - INFO - Carregando arquivo ./dados/pedidos/pedidos000.csv...
+2023-03-20 01:07:37,005 - INFO - Arquivo ./dados/pedidos/pedidos000.csv carregado com sucesso.
+2023-03-20 01:07:37,005 - INFO - Iniciando a função nomes_hubs
+2023-03-20 01:07:37,006 - INFO - Coluna Nome HUB processada com sucesso
+2023-03-20 01:07:37,007 - INFO - Arquivo hubs_processados.csv criado com sucesso
+2023-03-20 01:07:37,007 - INFO - Retornando lista com os nomes dos hubs
+2023-03-20 01:07:37,007 - INFO -  ####################### INICIANDO O PROCESSO 2023-03-20 01:07:36.785916 #######################
+2023-03-20 01:07:37,007 - INFO - Processando o arquivo ./dados/pedidos/pedidos000.csv pedidos000.csv
+2023-03-20 01:07:37,007 - INFO - 
+2023-03-20 01:07:37,007 - INFO - Iniciando limpeza de dados do arquivo de distâncias...
+2023-03-20 01:07:43,040 - INFO - Limpeza de dados do arquivo de distâncias concluída com sucesso!
+2023-03-20 01:07:43,086 - INFO - Tempo de execução para Limpeza de Dados: 6.08 segundos
+2023-03-20 01:07:43,086 - INFO - 
+2023-03-20 01:07:43,092 - INFO - Arquivo de pedidos lido com sucesso
+2023-03-20 01:07:43,092 - INFO - Arquivo de municípios lido com sucesso
+2023-03-20 01:07:43,706 - INFO - Lendo arquivo de pedidos:         Id Pedido  COD org  COD dest
+0               0  3123908   4100301
+1               1  3123908   3114303
+2               2  3504909   1200427
+3               3  2510808   3535705
+4               4  3166709   4107538
+...           ...      ...       ...
+999995     999995  4312674   2914703
+999996     999996  1709302   1303502
+999997     999997  3512902   3512902
+999998     999998  2706208   3542602
+999999     999999  3107703   4214003
+
+[1000000 rows x 3 columns]
+2023-03-20 01:07:43,708 - INFO - Lendo arquivo de municípios:                        Munic?pio - UF  COD mun
+0           Alta Floresta dOeste - RO  1100015
+1                 Espigao dOeste - RO  1100098
+2            Machadinho do Oeste - RO  1100130
+3       Nova Brasilandia d'Oeste - RO  1100148
+4            Santa Luzia d'Oeste - RO  1100296
+...                               ...      ...
+1126           Sao Joao dAlianca - GO  5220009
+1127  Sao Miguel do Passa Quatro - GO  5220264
+1128                  Simolandia - GO  5220686
+1129                      Urutai - GO  5221809
+1130                    Vila Boa - GO  5222203
+
+[1131 rows x 2 columns]
+2023-03-20 01:07:44,166 - INFO - Salvando resultado em arquivo CSV: resultado1_pedidos000.csv
+2023-03-20 01:07:46,112 - INFO - Processamento concluído com sucesso.
+2023-03-20 01:07:46,118 - INFO - Tempo de execução para Processar Valores de Municipios e Pedidos: 3.03 segundos
+2023-03-20 01:07:46,123 - INFO - Arquivo final total_pedidos_hubs.csv salvo com sucesso.
+2023-03-20 01:07:46,123 - INFO - 
+2023-03-20 01:07:46,123 - INFO - Iniciando cálculo de distância...

@@ -1,0 +1,17 @@
+2023-03-20 01:34:55,945 - INFO - Padronizando 200 arquivos
+2023-03-20 01:35:41,897 - INFO - Tempo para execitar a padronização de separadores 45.95segundos
+2023-03-20 01:35:41,897 - INFO - Carregando arquivo ./dados/pedidos/pedidos000.csv...
+2023-03-20 01:35:42,380 - INFO - Arquivo ./dados/pedidos/pedidos000.csv carregado com sucesso.
+2023-03-20 01:35:42,380 - INFO - Iniciando a função nomes_hubs
+2023-03-20 01:35:42,380 - INFO - Coluna Nome HUB processada com sucesso
+2023-03-20 01:35:42,381 - INFO - Arquivo hubs_processados.csv criado com sucesso
+2023-03-20 01:35:42,381 - INFO - Retornando lista com os nomes dos hubs
+2023-03-20 01:35:42,381 - INFO -  ####################### INICIANDO O PROCESSO 2023-03-20 01:34:55.944822 #######################
+2023-03-20 01:35:42,381 - INFO - Processando o arquivo ./dados/pedidos/pedidos000.csv pedidos000.csv
+2023-03-20 01:35:42,381 - INFO - 
+2023-03-20 01:35:42,381 - INFO - Iniciando limpeza de dados do arquivo de distâncias...
+2023-03-20 01:35:48,258 - INFO - Limpeza de dados do arquivo de distâncias concluída com sucesso!
+2023-03-20 01:35:48,297 - INFO - Tempo de execução para Limpeza de Dados: 5.92 segundos
+2023-03-20 01:35:48,298 - INFO - 
+2023-03-20 01:35:48,298 - INFO - Arquivo de pedidos lido com sucesso
+2023-03-20 01:35:48,298 - INFO - Arquivo de municípios lido com sucesso

@@ -1,0 +1,15 @@
+2023-03-20 01:01:11,445 - INFO - Carregando arquivo ./dados/pedidos/pedidos000.csv...
+2023-03-20 01:01:11,937 - INFO - Arquivo ./dados/pedidos/pedidos000.csv carregado com sucesso.
+2023-03-20 01:01:11,937 - INFO - Iniciando a função nomes_hubs
+2023-03-20 01:01:11,938 - INFO - Coluna Nome HUB processada com sucesso
+2023-03-20 01:01:11,939 - INFO - Arquivo hubs_processados.csv criado com sucesso
+2023-03-20 01:01:11,939 - INFO - Retornando lista com os nomes dos hubs
+2023-03-20 01:01:11,939 - INFO -  ####################### INICIANDO O PROCESSO 2023-03-20 01:01:11.445760 #######################
+2023-03-20 01:01:11,939 - INFO - Processando o arquivo ./dados/pedidos/pedidos000.csv pedidos000.csv
+2023-03-20 01:01:11,939 - INFO - 
+2023-03-20 01:01:11,939 - INFO - Iniciando limpeza de dados do arquivo de distâncias...
+2023-03-20 01:01:17,518 - INFO - Limpeza de dados do arquivo de distâncias concluída com sucesso!
+2023-03-20 01:01:17,556 - INFO - Tempo de execução para Limpeza de Dados: 5.62 segundos
+2023-03-20 01:01:17,556 - INFO - 
+2023-03-20 01:01:17,561 - INFO - Arquivo de pedidos lido com sucesso
+2023-03-20 01:01:17,561 - INFO - Arquivo de municípios lido com sucesso

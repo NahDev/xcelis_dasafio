@@ -1,0 +1,122 @@
+2023-03-20 02:15:56,547 - INFO - Carregando arquivo ./dados/pedidos/pedidos000.csv...
+2023-03-20 02:15:56,736 - INFO - Arquivo ./dados/pedidos/pedidos000.csv carregado com sucesso.
+2023-03-20 02:15:56,736 - INFO - Iniciando a função nomes_hubs
+2023-03-20 02:15:56,737 - INFO - Coluna Nome HUB processada com sucesso
+2023-03-20 02:15:56,738 - INFO - Arquivo hubs_processados.csv criado com sucesso
+2023-03-20 02:15:56,738 - INFO - Retornando lista com os nomes dos hubs
+2023-03-20 02:15:56,738 - INFO -  ####################### INICIANDO O PROCESSO 2023-03-20 02:15:56.546823 #######################
+2023-03-20 02:15:56,738 - INFO - Processando o arquivo ./dados/pedidos/pedidos000.csv pedidos000.csv
+2023-03-20 02:15:56,738 - INFO - 
+2023-03-20 02:15:56,738 - INFO - Iniciando limpeza de dados do arquivo de distâncias...
+2023-03-20 02:16:02,427 - INFO - Limpeza de dados do arquivo de distâncias concluída com sucesso!
+2023-03-20 02:16:02,466 - INFO - Tempo de execução para Limpeza de Dados: 5.73 segundos
+2023-03-20 02:16:02,466 - INFO - 
+2023-03-20 02:16:02,469 - INFO - Arquivo de pedidos lido com sucesso
+2023-03-20 02:16:02,469 - INFO - Arquivo de municípios lido com sucesso
+2023-03-20 02:16:03,031 - INFO - Lendo arquivo de pedidos:         Id Pedido  COD org  COD dest
+0               0  3123908   4100301
+1               1  3123908   3114303
+2               2  3504909   1200427
+3               3  2510808   3535705
+4               4  3166709   4107538
+...           ...      ...       ...
+999995     999995  4312674   2914703
+999996     999996  1709302   1303502
+999997     999997  3512902   3512902
+999998     999998  2706208   3542602
+999999     999999  3107703   4214003
+
+[1000000 rows x 3 columns]
+2023-03-20 02:16:03,033 - INFO - Lendo arquivo de municípios:                        Munic?pio - UF  COD mun
+0           Alta Floresta dOeste - RO  1100015
+1                 Espigao dOeste - RO  1100098
+2            Machadinho do Oeste - RO  1100130
+3       Nova Brasilandia d'Oeste - RO  1100148
+4            Santa Luzia d'Oeste - RO  1100296
+...                               ...      ...
+1126           Sao Joao dAlianca - GO  5220009
+1127  Sao Miguel do Passa Quatro - GO  5220264
+1128                  Simolandia - GO  5220686
+1129                      Urutai - GO  5221809
+1130                    Vila Boa - GO  5222203
+
+[1131 rows x 2 columns]
+2023-03-20 02:16:03,285 - INFO - Salvando resultado em arquivo CSV: resultado1_pedidos000.csv
+2023-03-20 02:16:05,629 - INFO - Processamento concluído com sucesso.
+2023-03-20 02:16:05,632 - INFO - Tempo de execução para Processar Valores de Municipios e Pedidos: 3.17 segundos
+2023-03-20 02:16:05,636 - INFO - Arquivo final total_pedidos_hubs.csv salvo com sucesso.
+2023-03-20 02:16:05,636 - INFO - 
+2023-03-20 02:16:05,636 - INFO - Iniciando cálculo de distância...
+2023-03-20 03:02:07,458 - INFO - Cálculo de distância concluído.
+2023-03-20 03:02:07,467 - INFO - Tempo de execução para processar arquivo de distância: 2761.83 segundos
+2023-03-20 03:02:10,537 - INFO - Arquivo final distancias_pedidos_final.csv salvo com sucesso.
+2023-03-20 03:02:11,052 - INFO - Cálculo de resultados iniciado
+2023-03-20 03:02:11,066 - INFO - Lendo os arquivos CSV          Id Pedido  COD org_x  COD dest_x  Distancia total  COD org_y  COD dest_y             Munic?pio Org            Munic?pio Dest
+0                0    3123908     4100301            827.0    3123908     4100301  Entre Rios de Minas - MG        Agudos do Sul - PR
+1                1    3123908     3114303            318.0    3123908     3114303  Entre Rios de Minas - MG   Carmo do Paranaiba - MG
+2                2    3504909     1200427           3838.0    3504909     1200427              Bananal - SP      Rodrigues Alves - AC
+3                3    2510808     3535705           2700.0    2510808     3535705                Patos - PB              Paraiso - SP
+4                4    3166709     4107538           1958.0    3166709     4107538    Serra dos Aimores - MG  Entre Rios do Oeste - PR
+...            ...        ...         ...              ...        ...         ...                       ...                       ...
+1054547     999995    4312674     2914703           2942.0    4312674     2914703    Nicolau Vergueiro - RS            Itaberaba - BA
+1054548     999996    1709302     1303502           4177.0    1709302     1303502               Guarai - TO               Pauini - AM
+1054549     999997    3512902     3512902            111.0    3512902     3512902            Cosmorama - SP            Cosmorama - SP
+1054550     999998    2706208     3542602           2738.0    2706208     3542602            Palestina - AL             Registro - SP
+1054551     999999    3107703     4214003           1350.0    3107703     4214003  Bom Jesus do Amparo - MG   Presidente Getulio - SC
+
+[1054552 rows x 8 columns] e                         Nome HUB  Total de Pedidos Alocados  Total de Pedidos Redirecionados Enviados  ...  COD inicial COD final  Capacidade Entrega
+0       Sao Sebastiao do Paraiso                        782                                         0  ...      1405956   3761091                 379
+1                          Pedra                        785                                         0  ...      2484768   2853161                 367
+2               Corumba de Goias                        848                                         0  ...      3381138   5278913                 353
+3               Gabriel Monteiro                        786                                         0  ...      1353159   3654671                 137
+4         Sao Francisco de Sales                        786                                         0  ...      1123216   4987356                 191
+5              Saudade do Iguacu                        804                                         0  ...      1272706   4774304                 359
+6                        Anhumas                        824                                         0  ...      2196670   4238241                 167
+7                       Itanagra                        763                                         0  ...      2043935   4400860                 331
+8                Fontoura Xavier                        773                                         0  ...      2962380   4558979                 509
+9                     Embu-Guacu                        841                                         0  ...      2736029   4788733                 307
+10                    Passa Sete                        776                                         0  ...      3895779   4467992                 139
+11                       Condado                        765                                         0  ...      1873765   3434435                 241
+12                       Taperoa                        800                                         0  ...      2357769   4897946                 383
+13                     Progresso                        845                                         0  ...      3692978   4919196                 223
+14                 Pouso Redondo                        804                                         0  ...      1552729   4222436                 409
+15                      Pratinha                        732                                         0  ...      3078001   3867109                 503
+16                Rio das Flores                        827                                         0  ...      2003697   3455728                 359
+17                         Jaiba                        770                                         0  ...      3124797   3318862                 193
+18                     Paranaiba                        798                                         0  ...      4578847   5117094                 419
+19                        Passos                        777                                         0  ...      1028751   4662458                 269
+20                     Dormentes                        786                                         0  ...      1559618   4233161                 293
+21           Leopoldo de Bulhoes                        791                                         0  ...      1545081   5336458                 241
+22      Dois Irmaos do Tocantins                        773                                         0  ...      1544680   4330288                 353
+23                        Nazare                        787                                         0  ...      1536107   3187273                 457
+24                       Aracatu                        791                                         0  ...      1281772   3648577                 541
+25                  Paranaiguara                        733                                         0  ...      4846602   5492498                 199
+26        Formosa da Serra Negra                        848                                         0  ...      1534884   4140382                 181
+27        Santa Barbara do Oeste                        785                                         0  ...      1964384   4990734                 191
+28                         Aurea                        766                                         0  ...      2702958   4931433                 503
+29                   Novo Acordo                        787                                         0  ...      1702499   3215133                 113
+30                Patos do Piaui                      22792                                     20023  ...      1438150   2977689                 347
+31                      Candeias                        760                                         0  ...      2454410   4399174                 229
+32                       Durande                        788                                         0  ...      2268819   4968757                 163
+33               Mogi das Cruzes                        828                                         0  ...      1836505   3658961                 331
+34                   Paulo Ramos                        835                                         0  ...      1465044   2616266                 347
+35                        Guarai                      23060                                     20192  ...      1298199   5428247                 193
+36                         Jauru                        817                                         0  ...      3987272   5281345                 241
+37             Ribeiro Goncalves                        803                                         0  ...      1621321   3327925                 349
+38                         Caete                        780                                         0  ...      1726998   3740381                 311
+39  Santo Antonio do Aventureiro                        807                                         0  ...      2396695   3812220                 137
+40           Santa Rosa de Goias                        827                                         0  ...      1901759   5486685                 311
+41        Conceicao do Rio Verde                        822                                         0  ...      1052552   4791404                 293
+42               Sao Jose do Sul                        793                                         0  ...      3065715   4480480                 113
+43                     Itamarati                        837                                         0  ...      1070087   2235803                 389
+44              Monsenhor Tabosa                        804                                         0  ...      2074146   3253325                 307
+45              Tangara da Serra                        749                                         0  ...      3088843   5192652                 373
+46                     Bossoroca                        864                                         0  ...      2736128   4429272                 229
+47              Sao Jose da Lapa                        791                                         0  ...      2031605   3849627                 173
+48          Santa Luzia do Parua                        817                                         0  ...      1762155   2497260                 277
+49          Conceicao do Jacuipe                        783                                         0  ...      1660260   4805154                 463
+
+[50 rows x 8 columns]
+2023-03-20 03:02:18,720 - INFO - Resultado salvo em dados/PEDIDOS_HUBS_DISTANCIA_DIAS.csv
+2023-03-20 03:02:18,720 - INFO - Tempo de execução para limpeza de dados: 7.67 segundos
+2023-03-20 03:02:18,720 - INFO - Excluindo arquivos desnecessários
